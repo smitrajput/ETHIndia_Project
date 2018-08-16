@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Code+Pro');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif !important;
+  color: #444;
+  margin-bottom: 50px;
+  background: #fefefe;
+}
+
+h1, h2, h3, h4 {
+	color: #097b4e;
+}
+
+a {
+  color: #59b1ef;
+}
+
+#mc_embed_signup input,
+input {
+  font-family: 'Source Code Pro', sans-serif;
+  transition: box-shadow 0.3s, border 0.3s;
+  border: 1px solid #59b1ef !important;
+  box-shadow: 0px 4px 10px #dcdada !important;
+  top: -2px;
+  position: relative;
+  border-radius: 8px !important;
+}
+
+#mc_embed_signup input:focus,
+input:focus {
+  box-shadow: 0px 4px 10px #bbb !important;
+  border: 1px solid #fefefe !important;
+}
+
+#mc_embed_signup .btn,
+.btn {
+  font-family: 'Source Code Pro', sans-serif;
+  transition: box-shadow 0.3s, border 0.3s, background 0s;
+  box-shadow: 0px 4px 10px #dcdada;
+  font-weight: 300;
+  font-size: 1.2rem;
+  border: 1px solid #fff !important;
+  border-radius: 8px;
+  color: #fff;
+  background: #59b1ef;
+}
+
+.btn.clean {
+  background: #fff;
+  color: #444;
+}
+.btn.clean:hover {
+  color: #444;
+}
+
+.btn.clean:active {
+  color: #444;
+}
+
+.btn.clean:focus {
+  color: #444;
+}
+
+.btn.full-width {
+  width: 100%;
+}
+
+.btn.disabled-btn {
+  cursor: not-allowed;
+  background-color: #eee;
+  color: #888;
+}
+
+input.full-width {
+  width: 100%;
+}
+
+#mc_embed_signup .btn:hover, #mc_embed_signup .btn:active, #mc_embed_signup .btn:focus,
+.btn:hover, .btn:active, .btn:focus {
+  color: #fff;
+  box-shadow: 0px 4px 10px #bbb !important;
+  border: 1px solid #fff !important;
+}
+
+.modal {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 50%;
+  box-shadow: 0px 0px 15px #ddd;
+  border: 1px solid #bbb;
+  background : #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 300px;
+}
+.modal.add-tokens {
+  top: 45%;
+  width: 350px;
+}
+
+.modal .modal-notice {
+  margin: 10px 0px 0px 0px;
+  font-size: 1.3rem;
+  color: #666;
+}
+.tooltip {
+  display: none;
+  position: absolute;
+  bottom: 55px;
+  left: 0px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.tooltip-button {
+  position: relative;
+  display: block;
+}
+.visible {
+  display: block;
+}
+
+.well {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.right {
+  float: right;
+}
+code {
+  padding: 8px;
+}
+
+/* Skeleton.css Overrides */
+ul {
+  list-style: circle !important;
+  margin-bottom: 1.5rem !important;
+}
+
+ol {
+  list-style: decimal !important;
+  margin-bottom: 1.5rem !important;
+}
+
+li {
+  margin-left: 1.7rem !important;
+
+}

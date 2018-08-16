@@ -1,0 +1,35 @@
+{
+  "name": "ironbank",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "7.10.1"
+  },
+  "dependencies": {
+    "draft-js": "^0.10.4",
+    "draft-js-anchor-plugin": "^2.0.1",
+    "draft-js-plugins-editor": "^2.0.3",
+    "draft-js-static-toolbar-plugin": "^2.0.1",
+    "express": "^4.15.4",
+    "ipfs-api": "^17.2.4",
+    "lodash": "^4.17.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-modal": "^3.1.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-hash-link": "^1.1.1",
+    "react-scripts": "1.0.13",
+    "semantic-ui-react": "^0.82.2",
+    "staketree-contracts": "0.0.7",
+    "truffle-contract": "^3.0.0",
+    "web3": "^1.0.0-beta.20"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "mkdir build && npm run build"
+  }
+}
