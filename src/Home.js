@@ -256,7 +256,7 @@ class Home extends Component {
         <Table.Body>
           <Table.Row>
             <Table.Cell>
-              <Label ribbon>White Walker</Label>
+              <Label ribbon>Ramsay Boulton</Label>
             </Table.Cell>
             <Table.Cell>Grand Master</Table.Cell>
             <Table.Cell>Overall governance</Table.Cell>
