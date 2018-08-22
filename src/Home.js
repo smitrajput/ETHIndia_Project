@@ -256,7 +256,7 @@ class Home extends Component {
         <Table.Body>
           <Table.Row>
             <Table.Cell>
-              <Label ribbon>Cerebrus Snape</Label>
+              <Label ribbon>White Walker</Label>
             </Table.Cell>
             <Table.Cell>Grand Master</Table.Cell>
             <Table.Cell>Overall governance</Table.Cell>
