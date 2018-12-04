@@ -270,7 +270,7 @@ class Home extends Component {
             <Table.Cell>
               <Label ribbon>John Doe</Label>
             </Table.Cell>
-            <Table.Cell>Master of Coins</Table.Cell>
+            <Table.Cell>Master of BitCoins</Table.Cell>
             <Table.Cell>Monetary policies</Table.Cell>
             <Table.Cell>700</Table.Cell>
             <Table.Cell>
